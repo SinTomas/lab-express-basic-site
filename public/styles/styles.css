@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+header img {
+    width: 40px;
+    height: 54px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left:0px;
+    background-color:rgb(209, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.nav-bar a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav-bar a:hover {
+    transition: 0.5s;
+    color: black;
+}
+
+#page {
+    width: 80%;
+    margin: 3% 10% 1% 10%;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.news {
+    margin: 25px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news > h1 {
+    font-size:40px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    color:rgb(209, 0, 0);
+}
+
+.news-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.border{
+    border-radius:15px;
+}
+
+.container1 {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    margin-bottom: 30px;
+    width: 25%;
+    transition: 1s
+}
+
+.container2 {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    margin-bottom: 30px;
+    width: 25%;
+    transition: 1s
+}
+
+.container3 {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    margin-bottom: 30px;
+    width: 25%;
+    transition: 1s
+}
+
+.container1:hover{
+    transform: scale(1.3);
+    color:rgb(209, 0, 0);
+}
+.container2:hover{
+    transform: scale(1.3);
+    color:rgb(209, 0, 0);
+}
+.container3:hover{
+    transform: scale(1.3);
+    color:rgb(209, 0, 0);
+}
+
+.text {
+    font-size: 20px;
+}
+
+.stadium-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 4%;
+}
+
+.stadium-left{
+    width:400px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+.stadium-right{
+    width:400px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+
+.stadium-text{
+    font-size: 17px;
+}
+
+.about-info{
+    text-align: justify;
+    font-size: larger;
+    line-height: 35px;
+}
+
+.why-wrexham {
+    font-size:30px;
+    color:rgb(209, 0, 0);
+}
+
+.achievements {
+    background-image: url("/images/racecourse-ground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.bg-achi{
+    background-color: rgba(0, 0, 0,0.4);
+    border-radius: 10px;
+}
+
+.achi-title {
+    font-size:40px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    color:rgb(209, 0, 0);
+}
+
+.achi-text{
+    color:white;    
+    padding: 0px 15px;
+    font-size: 16px;
+}
+
+.achi-display {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-images {
+    width: 35px;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.footer-images:hover {
+    opacity: 0.6;
+    width: 35px;
+    margin-left: 30px;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+  }
+
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+   
+  .slide-wrapper {
+    width: calc(728px * 7);
+    animation: slide 30s ease infinite;
+    animation-delay: 0ms;
+  }
+
+  .slide:nth-child(1) {
+    background-image: url("/images/slideshow/img1.jpeg");
+    border-radius: 15px;
+    background-size: cover;
+  }
+  .slide:nth-child(2) {
+    background-image: url("/images/slideshow/img2.jpeg");
+    border-radius: 15px;
+    background-size: cover;
+  }
+  .slide:nth-child(3) {
+    background-image: url("/images/slideshow/img3.jpeg");
+    border-radius: 15px;
+    background-size: cover;
+  }
+  .slide:nth-child(4) {
+    background-image: url("/images/slideshow/img4.jpeg");
+    border-radius: 15px;
+    background-size: cover;
+  }
+  .slide:nth-child(5) {
+    background-image: url("/images/slideshow/img5.jpeg");
+    border-radius: 15px;
+    background-size: cover;
+  }
+  .slide:nth-child(6) {
+    background-image: url("/images/slideshow/img6.jpeg");
+    border-radius: 15px;
+    background-size: cover;
+  }
+  .slide:nth-child(7) {
+    background-image: url("/images/slideshow/img7.jpeg");
+    border-radius: 15px;
+    background-size: cover;
+  }
+   
+  @keyframes slide {
+    5% {
+      margin-left: 0px;
+    }
+    18.5% {
+      margin-left: calc(-728px * 1);
+    }
+    32% {
+      margin-left: calc(-728px * 2);
+    }
+    45.5% {
+      margin-left: calc(-728px * 3);
+    }
+    59% {
+      margin-left: calc(-728px * 4);
+      }
+    72.5% {
+      margin-left: calc(-728px * 5);
+    }
+    86% {
+      margin-left: calc(-728px * 6);
+    }
+  }
